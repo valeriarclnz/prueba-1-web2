@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body{
+	font-family: 'poppins', sans-serif;
+	font-size: 20px;
+	color: #383838;
+}
+
+.header-area.sticky {
+	background-color:#fff !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header-area.sticky .nav-link{
+	color:#000;
+} 
+
+.header-area.sticky .d-none{
+	display: block !important;
+}
+
+.header-area.sticky .d-block{
+	display: none !important;
+}
+
+
+.header-area.sticky .navbar-default{
+	background-color: #000;
+	color: #000;
+}
+
+
+.title{
+	color:#222;
+	font-weight: 900;
+	font-size:65px;
+	text-align:center;
+	}
+	
+.btn-linea{
+color:#C6C6C6;	
+}
+	
+	#home{
+	color:#fff;
+	background-color:#383838;
+	padding:3% 0;
+	text-align:left;
+		}
+	#home h2{
+		color:#fff;
+		text-align:left;
+		}
+	
+	#about{
+		padding: 3% 0;
+		}
+	
+	#services{
+		padding: 3% 0;
+		text-align:center;
+	}
+	
+
+	#services h3{
+		text-align:center;
+		font-size:16px;
+	}
+	
+	#products{
+		background-color: #fee9da;
+		text-align:center;
+		padding: 3% 0;
+	}
+	
+	#contact{
+		padding:5% 0;
+		
+	}
+	
+	#contact i{
+		font-size:30px;	
+		text-align:center;	
+	}
+	
+	#contact p{
+		padding-rigth:20px;
+		}
+	.btn-negro{
+		color:#fff;
+		background-color:#000;
+	}
